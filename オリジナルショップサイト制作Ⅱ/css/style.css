@@ -1,0 +1,601 @@
+@charset "utf-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, 
+    "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: normal;
+    color: black
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main {
+    background-color: #dbedf0;
+}
+
+
+/*--HEADER--*/
+.logo {
+    width: 132px;
+    margin-top: 14px;
+}
+
+header{
+    /* background-image: url(../images/main001.png); */
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav {
+    display: flex;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 24px;
+    list-style: none;
+}
+
+.main-nav li {
+    margin-left: 36px;
+}
+
+.main-nav a {
+    color: #FFFFFF;
+}
+
+.main-nav a:hover {
+    color: #196989;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/*ページタイトル*/
+.page-title {
+    color: white;
+}
+
+
+
+/*-HOME-*/
+#home {
+    background-image: url(../images/main001.jpg);
+    min-height: 680px;
+    height: 600px;
+}
+
+#home .page-title {
+    text-transform: none;
+}
+
+.home-box {
+   text-align: center;
+}
+
+
+.home-content {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.home-content p {
+    font-size: 37px;
+    margin: 10px 0 42px;
+    color: white;
+}
+
+/*見出し*/
+.page-title {
+    font-size: 38px;
+    font-family: 'Philosopher', serif;
+    text-transform: uppercase;
+    font-weight: nomal;
+}
+
+.menu-content p {
+    color: white;
+    text-align: center;
+    margin: 30px auto 50px auto;
+    font-family: 'Philosopher', serif;
+    text-transform: uppercase;
+    font-weight: nomal;
+}
+
+/*メインビジュアル*/
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+/*HOME-article1*/
+#art1 {
+    display: flex;
+    font-size: 16px;
+    /* text-align: center; */
+    height: 400px;
+    /* margin: 100px; */
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+#art1 h2 {
+    font-size: 28px;
+    margin-left: 100px;
+}
+
+#art1 p {
+    margin-left: 100px;
+}
+
+#pic1 img {
+    width: 271px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 80px;
+}
+
+/*HOME-article2*/
+#art2 {
+    margin-top: 50px;
+    display: flex;
+    font-size: 16px;
+    /* text-align: center; */
+    height: auto;
+    /* margin: 100px; */
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+#art2 h2 {
+    font-size: 28px;
+}
+
+#pic2 img {
+    width: 271px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+
+
+/*--NEWS--*/
+#news {
+    background-image: url(../images/main005.jpg);
+    height: 400px;
+    margin-bottom: 40px;
+    font-size: 38px;
+    font-family: 'Philosopher', serif;
+    text-transform: uppercase;
+    font-weight: nomal;    
+}
+
+#news .page-title {
+    text-align-last: center;
+}
+
+/*記事部分*/
+article {
+    height: auto;
+    width: 74%;
+    text-align: center;
+}
+
+article h2 {
+    font-size: 37px;
+    height: auto;
+    width: 74%;
+}
+
+article img {
+    margin-bottom: 20px;
+}
+
+article p {
+    margin-bottom: 1rem;
+}
+
+/*サイドバー*/
+aside {
+    width: 22%;
+}
+
+.news-contents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    border: 1px;
+}
+
+.post-title {
+    font-family: "Yu Mincho", "YuMincho", serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.post-title,
+.post-cat {
+    margin-left: 120px;
+}
+
+.sub-title {
+    background-color: #244DF1;
+    font-size: 17px;
+    padding: 0 8px 8px;
+    border-bottom: 2px #0bd solid;
+    font-weight: normal;
+}
+
+.sub-title h3 {
+    color: white;
+}
+
+aside p {
+    padding: 12px 10px;
+}
+
+sub-menu {
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+.sub-menu li {
+    border-bottom: 1px #ddd solid;
+}
+
+.sub-menu a{
+    color: black;
+    padding: 10px;
+    display: block;
+}
+
+.sub-menu a:hover {
+    color: cornflowerblue;
+}
+
+
+/*--MENU--*/
+#menu {
+    background-image: url(../images/main004.jpg)
+}
+#menu background-image {
+    height: 400px;
+}
+
+
+.menu-content {
+    max-width: 1366px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 240px;
+}
+
+.menu-content .page-title {
+    text-align-last: center;
+}
+
+.menu-content p {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+
+#kaisen {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 6%;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;    
+}
+
+#teishoku {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 6%;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;    
+}
+
+
+#ramen {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 6%;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*menu-title*/
+#menu-title {
+    font-size: 34px;
+    margin: 40px 0 30px 0;
+    text-align: center;
+} 
+
+/*menu-href*/
+.item a {
+    color: black;
+    text-align: center;
+}
+
+.item a:hover {
+    color: #196989;
+}
+
+
+
+
+/*--CONTACT--*/
+#contact {
+    background-image: url(../images/main002.jpg);
+    min-height: 100vh;
+}
+
+
+
+/*--店舗情報・地図--*/
+#location {
+    padding: 4% 0;
+}
+
+#location .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-info {
+    width: 20%;
+}
+
+.location-info p {
+    padding: 12px 10px;
+}
+
+.location-map {
+    width: 74%;
+}
+
+
+/*iframe*/
+iframe {
+    width: 100%;
+}
+
+/**menu_item**/
+
+.gnav {
+    display: flex;
+    height: 2rem;
+    margin: 0 auto;
+    width: 1000px;
+    margin-bottom: 80px;
+}
+.gnav > li {/*親階層のみ幅を25%にする*/
+    width: 30%;
+}
+/*全てのリスト・リンク共通*/
+.gnav li {
+    list-style: none;
+    position: relative;
+}
+.gnav li a {
+    font-size: 34px;
+    background: #001b34;
+    border-right: 1px solid #eee;
+    color: #fff;
+    display: block;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+/*子階層以降共通*/
+.gnav {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.gnav li li {
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+.gnav li li a {
+    font-size: 17px;
+    border-top: 1px solid #eee;
+}
+.gnav li:hover > ul > li {
+    height: 2rem;
+    overflow: visible;
+}
+
+/*商品記事*/
+
+#menu_shousai {
+    display: flex;
+    text-align: center;
+}
+
+#menu1 {
+    display: flex;
+    font-size: 16px;
+    text-align: center;
+    height: auto;
+    margin: 50px;
+}
+
+#menu2 {
+    margin: 100px 110px 40px auto;
+}
+
+
+#menu2 h2 {
+    font-size: 34px;
+}
+
+#menu2 p {
+    font-size: 20px;
+}
+
+#menu1 img {
+    width: 597px;
+    height: auto;
+}
+
+
+/*-SNS TIMELINE-*/
+#sns {
+    background: #FAF7F0;
+    padding: 4% 0;
+    display: flex;
+}
+
+#sns .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sns .sub-title {
+    margin-bottom: 30px;
+}
+
+.sns-box {
+    width: 30%;
+}
+
+/*-FOOTER-*/
+
+footer{
+    width: 100%;
+    height: 183px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+/* enjoy */
+.enjoy3 h2 {
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+
+
+
+/*HOME-article1*/
+#art3 {
+    display: flex;
+    font-size: 16px;
+    /* text-align: center; */
+    height: auto;
+    margin: 100px;
+}
+
+#art3 h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 38px;
+}
+
+#art3 p {
+    font-size: 19px;
+    margin-left: 100px;
+}
+
+#pic3 img {
+    width: 300px;
+    height: auto;
+}
+
+/*HOME-article1*/
+#art4 {
+    display: flex;
+    font-size: 16px;
+    /* text-align: center; */
+    height: auto;
+    margin: 100px;
+}
+
+#art4 h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 38px;
+}
+
+#art4 p {
+    font-size: 19px;
+    margin-left: 100px;
+}
+
+#pic4 img {
+    width: 300px;
+    height: auto;
+}
+
+/* #menu_shousai {
+    display: flex;
+}
+
+#menu_shousai img {
+    width: 250px;
+    height: auto;
+    margin-left: 80px;
+}
+
+#menu_shousai h2 {
+    font-size: 27px;
+    margin-left: 20px;
+}
+
+#menu_shousai p {
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+#aside {
+    width: 300px;
+}
+
+#aside h3{
+    font-size: 17px;
+}
+
+#aside p{
+    font-size: 16px;
+} */
